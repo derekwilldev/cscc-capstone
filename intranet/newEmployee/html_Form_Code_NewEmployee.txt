@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>New Employee Form</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1>Enroll a new employee!</h1>
+        <div>
+            <label for ="First Name">First Name: </label>
+            <input type ="text" name = "First Name" />
+        </div>
+        <div>
+            <label for ="Middle Intial">Middle Intial: </label>
+            <input type ="text" name = "Middle Intial" />
+        </div>
+        <div>
+            <label for ="Last Name">Last Name: </label>
+            <input type ="text" name = "Last Name" />
+        </div>
+        <div>
+            <label for ="Work Phone">Work Phone: </label>
+            <input type ="text" name = "Work Phone" />
+        </div>
+        <div>
+            <label for ="Mobile">Mobile Phone: </label>
+            <input type ="text" name = "Mobile Phone" />
+        </div>
+        <div>
+            <label for ="E-mail">E-mail: </label>
+            <input type ="text" name = "E-mail" />
+        </div>
+        <div>
+            <input type ="submit" name = "submit" />
+        </div>
+    </form>
+</body>
+</html>
