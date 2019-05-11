@@ -1,0 +1,231 @@
+
+body {
+	background: linear-gradient(to right,
+    #FFF,
+    #b6d5f1);
+}
+
+
+/***** site header *****/
+header {
+  margin: 0 0 1.75em 0;
+  background: #FFF;
+  box-shadow: -13em -4px 4px rgba(0,0,0, .1);
+}
+
+header .logo {
+	width: 100%;
+	max-width: 135px;
+}
+
+
+/***** site main section *****/
+#main {
+  min-height: 500px;
+  background: #FFFFFF;
+  padding: 30px 0;
+}
+
+/*#main .row {
+  border: solid 1px red !important;
+}*/
+
+#main h1 {
+  margin: 50px 0 5px 0;
+}
+
+.jumbotron {
+  background: rgba(252,209,209,.075);
+}
+
+
+
+/***** popup register form *****/
+/* Full-width input fields */
+  #registerForm input[type=text], #registerForm input[type=password], #registerForm select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+  #registerForm select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+#registerForm input[type=text]:focus, #registerForm input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+#registerForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#registerForm button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+#registerForm .container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 700px;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+/***** popup register form *****/
+/* Style inputs with type="text", select elements and textareas */
+#contactForm input[type=text], #contactForm select, #contactForm textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+#contactForm input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#contactForm input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#contactForm {
+  border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+  padding: 20px;
+}
+
+
+/***** product pages *****/
+.product-page h2 {
+  padding: 2em 0 1em 0;
+}
+
+
+
+/***** product cards *****/
+.card {
+  max-width: 280px;
+  margin: 1em auto;
+}
+
+
+
+/***** cart / checkout *****/
+/*#checkoutForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}*/
+
+
+
+
+/***** site footer *****/
+footer {
+	background: #b6d5f1;
+	text-align: center;
+	margin-top: 1.75em;
+	height: 150px;
+}
+
